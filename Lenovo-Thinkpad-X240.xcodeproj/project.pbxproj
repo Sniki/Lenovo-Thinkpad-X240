@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		DF426C9A24EC62F90030A0D7 /* hotpatch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hotpatch; sourceTree = "<group>"; };
 		DF426C9B24EC63440030A0D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF426C9C24EC65D20030A0D7 /* Changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Changelog.md; sourceTree = "<group>"; };
+		DF426C9D24EC7F5D0030A0D7 /* EFI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EFI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -16,6 +18,8 @@
 			isa = PBXGroup;
 			children = (
 				DF426C9B24EC63440030A0D7 /* README.md */,
+				DF426C9C24EC65D20030A0D7 /* Changelog.md */,
+				DF426C9D24EC7F5D0030A0D7 /* EFI */,
 				DF426C9A24EC62F90030A0D7 /* hotpatch */,
 			);
 			sourceTree = "<group>";
