@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20A5343i</string>
+	<string>20C69</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,29 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2</string>
+	<string>3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.2</string>
+	<string>3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12A8169g</string>
+	<string>12D4e</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.0</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>20A5323l</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx11.0</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1200</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>12A8169g</string>
+	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>VoodooSMBusControllerDriver</key>
@@ -53,10 +53,10 @@
 			<string>de.leo-labs.VoodooSMBus</string>
 			<key>IOClass</key>
 			<string>VoodooSMBusControllerDriver</string>
-			<key>IOPCIMatch</key>
-			<string>0x9d238086 0xa3238086 0x9c228086</string>
+			<key>IOPCIClassMatch</key>
+			<string>0c050000&amp;0xffffff00</string>
 			<key>IOPCIMatchComment</key>
-			<string>Intel SMBus Controller i80 (9d23: Sunrise Point-LP (PCH), a323: Cannon Lake-H (PCH))</string>
+			<string>Intel SMBus Controller i801 (Class 0x0C05)</string>
 			<key>IOProbeScore</key>
 			<integer>400</integer>
 			<key>IOProviderClass</key>
@@ -79,23 +79,21 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.14</string>
+	<string>10.11</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 leo-labs. All rights reserved.</string>
 	<key>OSBundleCompatibleVersion</key>
-	<string>2.1</string>
+	<string>3.0</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IOHIDFamily</key>
-		<string>2.0</string>
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>2.9</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>18.5</string>
+		<string>15</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>18.5</string>
+		<string>15</string>
 		<key>com.apple.kpi.mach</key>
-		<string>18.5</string>
+		<string>15</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>

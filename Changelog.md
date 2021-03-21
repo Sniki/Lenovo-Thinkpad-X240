@@ -1,5 +1,21 @@
 #  Changelog
 
+#### OpenCore 0.6.7
+- Updated to OpenCore 0.6.7
+- Updated to Acidanthera March kext(s)
+- Fixed SD Card Reader to work after wake from sleep
+- Fixed SD Card volumes to show correct SD icon instead of USB.
+- Complete ACPI cleanup and Re-write
+- Added YogaSMC to read & control Fan, LEDs and full keyboard map and Fn shortcuts GUI
+- Enabled OpenCanopy support
+- Added Modern OpenCanopy Design introduced into Big Sur
+- Fixed VoodooRMI to work with standard touchpads
+- Fixed Ethernet causing wakes and now no instant wake patches needed
+- Added latest AirportItlwmkexts and IntelBluetooth kexts
+- Added SecureBoot support
+- Added Audio boot chime during startup
+- Many other changes that i may have forgot to list (refer to commits)
+
 #### OpenCore 0.6.0
 - Updated to OpenCore 0.6.0
 - Updated to Acidanthera August kext(s)
