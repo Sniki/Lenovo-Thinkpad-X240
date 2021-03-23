@@ -427,12 +427,14 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>#brcmfx-country</key>
 				<string>#a</string>
 				<key>#pci-aspm-default</key>
-				<integer>0</integer>
+				<data>
+				AAAAAQ==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
@@ -980,7 +982,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmBluetoothInjector</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1718,7 +1720,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>rtsx_sleep_wake_delay_ms=100</string>
+				<string>rtsx_sleep_wake_delay_ms=1000</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
